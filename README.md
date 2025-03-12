@@ -1,7 +1,7 @@
 # Pokedex App
 
 ## Descripción del Proyecto
-Esta es una aplicación de Android desarrollada en Kotlin utilizando Jetpack Compose que permite a los usuarios buscar información sobre cualquier Pokémon a través de la PokeAPI. La aplicación ofrece una interfaz simple donde los usuarios pueden ingresar el nombre de un Pokémon en una barra de búsqueda y visualizar sus detalles organizados en una tabla, incluyendo su ID, peso, altura, experiencia base, tipos y estadísticas.
+Esta es una aplicación de Android desarrollada en Kotlin que permite a los usuarios buscar información sobre cualquier Pokémon a través de la PokeAPI. La aplicación ofrece una interfaz simple donde los usuarios pueden ingresar el nombre de un Pokémon en una barra de búsqueda y visualizar sus detalles organizados en una tabla, incluyendo su ID, peso, altura, experiencia base, tipos y estadísticas.
 
 ## Instrucciones para Ejecutar
 ### Requisitos Previos
@@ -12,7 +12,7 @@ Esta es una aplicación de Android desarrollada en Kotlin utilizando Jetpack Com
 ### Pasos de Instalación y Ejecución
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/pokedex-app.git
+   git clone https://github.com/DenovanMonroy/pokedex-app.git
    ```
 2. Abrir el proyecto en Android Studio.
 3. Asegurar que el archivo `build.gradle` contenga las dependencias necesarias.
@@ -22,7 +22,7 @@ Esta es una aplicación de Android desarrollada en Kotlin utilizando Jetpack Com
 La aplicación sigue el patrón MVVM (Model-View-ViewModel):
 - **Model:** Contiene las clases de datos que representan la respuesta de la API.
 - **ViewModel:** Gestiona la lógica de negocio y las llamadas a la API utilizando Retrofit y coroutines.
-- **View:** Utiliza Jetpack Compose para mostrar la interfaz gráfica y reflejar los datos obtenidos.
+- **View:** Utiliza para mostrar la interfaz gráfica y reflejar los datos obtenidos.
 
 Los principales componentes son:
 - **RetrofitInstance:** Configura Retrofit para consumir la PokeAPI.
